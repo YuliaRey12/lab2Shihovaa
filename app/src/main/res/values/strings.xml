@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">lab2Shihovaa</string>
+    <string name="app_name">Lab2Shihovaa</string>
+    <string name="hint_enter_a">Введите значение a</string>
+    <string name="btn_calculate">Рассчитать</string>
 </resources>
