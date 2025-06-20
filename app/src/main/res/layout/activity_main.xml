@@ -15,4 +15,10 @@
         android:importantForAutofill="yes"
         android:minHeight="48dp"
         android:padding="12dp" />
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Рассчитать"
+        android:layout_marginTop="16dp" />
 </LinearLayout>
