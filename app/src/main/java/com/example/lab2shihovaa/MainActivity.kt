@@ -21,5 +21,10 @@ class MainActivity : AppCompatActivity() {
                 resultText.text = "Введите корректное число!"
                 return@setOnClickListener
             }
+            if (a > 7) {
+                resultText.text = "Для данного значения a результат не может быть получен"
+                return@setOnClickListener
+            }
 
+    }
 }
