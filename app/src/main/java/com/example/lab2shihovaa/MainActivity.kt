@@ -25,6 +25,13 @@ class MainActivity : AppCompatActivity() {
                 resultText.text = "Для данного значения a результат не может быть получен"
                 return@setOnClickListener
             }
-
+            var sum = 0.0
+            var n = 1
+            while (sum <= a) {
+                sum += 1.0 / n
+                n++
+            }
+            resultText.text = "Первое подходящее число: %.5f\nНомер этого числа (n): %d".format(sum, n - 1)
+        }
     }
 }
